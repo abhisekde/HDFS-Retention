@@ -1,0 +1,20 @@
+{
+    "slack": "https://hooks.slack.com/services/XXXXXXXXX/YYYYYYYY/ZZZZZZZZZZZZZZZZZZZ",
+    "retentions": {
+        "analytics": "30", 
+        "anonymized": "30", 
+        "b2b": "30", 
+        "b2c": "30", 
+        "base": "30", 
+        "bi_report": "30"
+    }, 
+    "root": "/data",
+    "exceptions" : {
+        "sandbox": [
+            "sandbox_COLLECTION" 
+        ], 
+        "work": []
+    },
+    "tracker": "/home/centos/retention/run6d.tk"
+}
+
